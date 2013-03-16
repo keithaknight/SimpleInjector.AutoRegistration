@@ -1,20 +1,25 @@
-# SimpleInjector.AutoRegistration - The Flexible Auto-Registration Extension to SimpleInjector (IoC Container)
+# SimpleInjector.AutoRegistration - An Auto-Registration Extension for SimpleInjector
 
-## Author
+## Summary
 Name: SimpleInjector.AutoRegistration
+
 Description: A flexible auto-registration module that extends SimpleInjector IoC container.
-Author: Keith <a> Knight 
+
+Author: Keith A. Knight 
+
 http://keithaknight.com
+
 https://www.linkedin.com/in/keithaknight
+
 https://github.com/keithaknight
 
 
-## Setup:
+## Setup
  
 Add the SimpleInjector.AutoRegistration project or .dll to your solution.
 
 
-## Usage:
+## Usage
 
 Add the following to your application's composition root:
 
