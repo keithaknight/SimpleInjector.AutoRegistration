@@ -9,6 +9,5 @@ C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\SimpleInjector.Auto
 C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\SimpleInjector.AutoRegistration\bin\Debug\SimpleInjector.AutoRegistration.pdb
 C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\SimpleInjector.AutoRegistration\bin\Debug\SimpleInjector.dll
 C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\SimpleInjector.AutoRegistration\bin\Debug\SimpleInjector.xml
-C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\SimpleInjector.AutoRegistration\obj\Debug\SimpleInjector.AutoRegistration.csprojResolveAssemblyReference.cache
 C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\SimpleInjector.AutoRegistration\obj\Debug\SimpleInjector.AutoRegistration.dll
 C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\SimpleInjector.AutoRegistration\obj\Debug\SimpleInjector.AutoRegistration.pdb
