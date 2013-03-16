@@ -1,0 +1,7 @@
+C:\Development\Git\VictoryBid\SimpleInjector.AutoRegistration\bin\Debug\SimpleInjector.AutoRegistration.dll
+C:\Development\Git\VictoryBid\SimpleInjector.AutoRegistration\bin\Debug\SimpleInjector.AutoRegistration.pdb
+C:\Development\Git\VictoryBid\SimpleInjector.AutoRegistration\bin\Debug\SimpleInjector.dll
+C:\Development\Git\VictoryBid\SimpleInjector.AutoRegistration\bin\Debug\SimpleInjector.xml
+C:\Development\Git\VictoryBid\SimpleInjector.AutoRegistration\obj\Debug\SimpleInjector.AutoRegistration.dll
+C:\Development\Git\VictoryBid\SimpleInjector.AutoRegistration\obj\Debug\SimpleInjector.AutoRegistration.pdb
+C:\Development\Git\VictoryBid\SimpleInjector.AutoRegistration\obj\Debug\SimpleInjector.AutoRegistration.csprojResolveAssemblyReference.cache
