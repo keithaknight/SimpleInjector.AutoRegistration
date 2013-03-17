@@ -1,16 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using SimpleInjector.Extensions;
 using SimpleInjector.AutoRegistration.Contract;
+using SimpleInjector.Extensions;
 
 namespace SimpleInjector.AutoRegistration.TypeRegistration
 {
+    /// <summary>
+    /// Providers all registration logic for types that have auto-registration enabled.
+    /// </summary>
     public class TypeRegistrationProvider
     {
         private readonly Container container;
         private readonly IAutoRegistrationOptions options;
 
+        /// <summary>
+        /// Constructor.  Creates a new TypeRegistrationProvider instance.
+        /// </summary>
+        /// <param name="container">SimpleInjector Container instance</param>
+        /// <param name="options">Registration options to use to auto-register types.</param>
         public TypeRegistrationProvider(Container container, IAutoRegistrationOptions options)
         {
             this.container = container;
@@ -19,6 +27,9 @@ namespace SimpleInjector.AutoRegistration.TypeRegistration
             this.container.Options.AllowOverridingRegistrations = true;
         }
 
+        /// <summary>
+        /// Discovers and registers all enabled types.
+        /// </summary>
         public void RegisterTypes()
         {
             foreach (var concreteType in options.ImplementationProvider.GetAllConcreteTypes())
@@ -35,6 +46,11 @@ namespace SimpleInjector.AutoRegistration.TypeRegistration
             }
         }
 
+        /// <summary>
+        /// Registers the specified concrete implementation for the specified service.
+        /// </summary>
+        /// <param name="concreteType">Concrete implementation to register</param>
+        /// <param name="serviceType">Service fulfilled by the concrete implementation.</param>
         private void RegisterType(Type concreteType, Type serviceType)
         {
             bool isOpenGeneric = IsOpenGeneric(concreteType);
@@ -72,11 +88,21 @@ namespace SimpleInjector.AutoRegistration.TypeRegistration
             }
         }
 
+        /// <summary>
+        /// Determines if the specified type is an open generic.
+        /// </summary>
+        /// <param name="type">Type to analyze.</param>
+        /// <returns>A value indicating if the specified type is an open generic.</returns>
         private bool IsOpenGeneric(Type type)
         {
             return type.IsGenericType && type.ContainsGenericParameters;
         }
 
+        /// <summary>
+        /// Determines if the specified type is a decorator of a service.
+        /// </summary>
+        /// <param name="type">Type to analyze.</param>
+        /// <returns>A value indicating if the specified type is a decorator of a service.</returns>
         private bool IsDecoratorType(Type type)
         {
             Lazy<HashSet<Type>> servicesExposed = new Lazy<HashSet<Type>>(() =>

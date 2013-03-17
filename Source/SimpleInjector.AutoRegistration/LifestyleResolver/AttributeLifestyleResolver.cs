@@ -6,12 +6,20 @@ using SimpleInjector.AutoRegistration.Contract;
 
 namespace SimpleInjector.AutoRegistration.LifestyleResolver
 {
+    /// <summary>
+    /// Determines the lifestyle of types based on associated attributes.
+    /// </summary>
     public class AttributeLifestyleResolver : ILifestyleResolver
     {
         private readonly IDictionary<Type, Lifestyle> resolvedLifestyles;
         private readonly IImplementationProvider implementationProvider;
         private readonly AttributeLifestyleResolverOptions options;
 
+        /// <summary>
+        /// Constructor.
+        /// </summary>
+        /// <param name="implementationProvider">The type implementation provider to use.</param>
+        /// <param name="options">The options used to determine the lifestyle of types.</param>
         public AttributeLifestyleResolver(IImplementationProvider implementationProvider, AttributeLifestyleResolverOptions options)
         {
             this.implementationProvider = implementationProvider;
@@ -20,6 +28,11 @@ namespace SimpleInjector.AutoRegistration.LifestyleResolver
             this.resolvedLifestyles = new Dictionary<Type, Lifestyle>();
         }
 
+        /// <summary>
+        /// Determines the lifestyle of the specified type.
+        /// </summary>
+        /// <param name="type">Type for which the lifestyle should be determined.</param>
+        /// <returns>The lifestyle of the specified type.</returns>
         public Lifestyle GetLifestyle(Type type)
         {
             Lifestyle lifestyle;
@@ -53,6 +66,11 @@ namespace SimpleInjector.AutoRegistration.LifestyleResolver
             return lifestyle;
         }
 
+        /// <summary>
+        /// Determines the lifestyle based on the specified attributes
+        /// </summary>
+        /// <param name="attrs">Array of attributes associated with the type</param>
+        /// <returns>A value indicating the lifestyle indicated by the specified attributes.</returns>
         private Lifestyle GetLifestyleFromAttributes(object[] attrs)
         {
             var immutableObj = attrs.FirstOrDefault() as ImmutableObjectAttribute;
