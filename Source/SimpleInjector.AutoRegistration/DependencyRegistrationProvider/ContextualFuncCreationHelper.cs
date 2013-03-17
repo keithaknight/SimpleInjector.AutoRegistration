@@ -3,7 +3,7 @@
 namespace SimpleInjector.AutoRegistration.DependencyRegistrationProvider
 {
     /// <summary>
-    /// A simple helper that can exposes a Func<> that creates instances
+    /// A simple helper that can exposes a Func that creates instances
     /// based on the contextual container.
     /// </summary>
     public class ContextualFuncCreationHelper
@@ -12,7 +12,7 @@ namespace SimpleInjector.AutoRegistration.DependencyRegistrationProvider
 
         /// <summary>
         /// Constructor.  Takes the container to keep it in context for the
-        /// GetFunc<> method.
+        /// GetFunc method.
         /// </summary>
         /// <param name="container">SimpleInjector Container instance.</param>
         public ContextualFuncCreationHelper(Container container)
@@ -21,7 +21,7 @@ namespace SimpleInjector.AutoRegistration.DependencyRegistrationProvider
         }
 
         /// <summary>
-        /// Publicly exposed Func<> method that will use the contextual SimpleInjector
+        /// Publicly exposed Func method that will use the contextual SimpleInjector
         /// Container instance to create instances of the specified type.
         /// </summary>
         /// <typeparam name="T">Type of object to create</typeparam>

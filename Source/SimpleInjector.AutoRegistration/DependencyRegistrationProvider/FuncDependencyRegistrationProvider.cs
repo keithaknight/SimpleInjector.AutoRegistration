@@ -6,7 +6,7 @@ using System.ComponentModel.Composition;
 namespace SimpleInjector.AutoRegistration.DependencyRegistrationProvider
 {
     /// <summary>
-    /// Provides discovery and registration of the Lazy<> dependencies to auto-registration enabled
+    /// Provides discovery and registration of the Func dependencies to auto-registration enabled
     /// types.
     /// </summary>
     [Export(typeof(IDependencyRegistrationProvider))]
@@ -20,7 +20,7 @@ namespace SimpleInjector.AutoRegistration.DependencyRegistrationProvider
         }
 
         /// <summary>
-        /// Discovers any Func<> dependencies of the specified type and attempts to register them.
+        /// Discovers any Func dependencies of the specified type and attempts to register them.
         /// </summary>
         /// <param name="concreteType">Concrete type for which the dependencies should be discovered
         /// and registered</param>

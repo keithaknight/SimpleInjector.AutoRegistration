@@ -4,3 +4,4 @@ C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\SimpleInjector.Auto
 C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\SimpleInjector.AutoRegistration\bin\Release\SimpleInjector.xml
 C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\SimpleInjector.AutoRegistration\obj\Release\SimpleInjector.AutoRegistration.dll
 C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\SimpleInjector.AutoRegistration\obj\Release\SimpleInjector.AutoRegistration.pdb
+C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\SimpleInjector.AutoRegistration\bin\Release\SimpleInjector.AutoRegistration.xml
