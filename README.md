@@ -32,7 +32,7 @@ container.AutoRegister();
 
 ## License
 
-SimpleInjector.AutoRegistration is available under the MIT license.  See [License.txt] (https://github.com/keithaknight/SimpleInjector.AutoRegistration/Source/License.txt) for more details.
+SimpleInjector.AutoRegistration is available under the MIT license.  See [License.txt] (https://github.com/keithaknight/SimpleInjector.AutoRegistration/blob/master/License.txt) for more details.
 
 Additional details may be found at: http://opensource.org/licenses/MIT.
 
