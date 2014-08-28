@@ -1,9 +1,13 @@
-# KeithAKnight.SimpleInjector.AutoRegistration - An Auto-Registration Extension for SimpleInjector
+# KeithAKnight.SimpleInjector.AutoRegistration - 
+An Extensible Auto-Registration Extension for Simple Injector
 
 ## Summary
 Name: KeithAKnight.SimpleInjector.AutoRegistration
 
-Description: A flexible auto-registration module that extends SimpleInjector IoC container.
+Description: A flexible auto-registration module that extends Simple Injector IoC container.
+
+While this software is designed to work with and extend Simple Injector
+(https://simpleinjector.org), it is not affiliated with nor endorsed by Simple Injector.
 
 Author: Keith A. Knight 
 
@@ -26,7 +30,7 @@ Add the following to your application's composition root:
 To header:
 using KeithAKnight.SimpleInjector.AutoRegistration;
 
-To Registration (where container is your SimpleInjector Container instance)
+To Registration (where container is your Simple Injector Container instance)
 container.AutoRegister();
 
 
