@@ -41,6 +41,7 @@ container.AutoRegister();
 ## License
 
 KeithAKnight.SimpleInjector.AutoRegistration is available under the MIT license.  See [License.txt] (https://github.com/keithaknight/SimpleInjector.AutoRegistration/blob/master/License.txt) for more details.
+
 This software is not affiliated with nor endorsed by Simple Injector (https://simpleinjector.org).
 
 Additional details may be found at: http://opensource.org/licenses/MIT.
