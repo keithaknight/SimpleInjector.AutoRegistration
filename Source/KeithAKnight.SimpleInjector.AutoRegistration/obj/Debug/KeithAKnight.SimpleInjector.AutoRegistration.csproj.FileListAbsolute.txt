@@ -1,0 +1,8 @@
+C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\KeithAKnight.SimpleInjector.AutoRegistration\bin\Debug\KeithAKnight.SimpleInjector.AutoRegistration.dll
+C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\KeithAKnight.SimpleInjector.AutoRegistration\bin\Debug\KeithAKnight.SimpleInjector.AutoRegistration.pdb
+C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\KeithAKnight.SimpleInjector.AutoRegistration\bin\Debug\SimpleInjector.dll
+C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\KeithAKnight.SimpleInjector.AutoRegistration\bin\Debug\SimpleInjector.xml
+C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\KeithAKnight.SimpleInjector.AutoRegistration\obj\Debug\KeithAKnight.SimpleInjector.AutoRegistration.dll
+C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\KeithAKnight.SimpleInjector.AutoRegistration\obj\Debug\KeithAKnight.SimpleInjector.AutoRegistration.pdb
+C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\KeithAKnight.SimpleInjector.AutoRegistration\bin\Debug\SimpleInjector.Diagnostics.dll
+C:\Development\GitHub\SimpleInjector.AutoRegistration\Source\KeithAKnight.SimpleInjector.AutoRegistration\bin\Debug\SimpleInjector.Diagnostics.xml

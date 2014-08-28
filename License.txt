@@ -1,4 +1,8 @@
-Copyright (c) 2013 Keith <a> Knight (http://keithaknight.com)
+Copyright (c) 2014 Keith <a> Knight (http://keithaknight.com)
+
+While this software is designed to work with and extend Simple Injector
+(https://simpleinjector.org), it is not affiliated with nor endorsed by Simple Injector.
+
  
 Permission is hereby granted, free of charge, to any person obtaining a copy of this 
 software and associated documentation files (the "Software"), to deal in the Software 
