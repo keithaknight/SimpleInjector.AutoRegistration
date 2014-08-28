@@ -8,10 +8,10 @@ Description: A flexible auto-registration module that extends Simple Injector
 Inversion of Control IoC container (https://simpleinjector.org).
 
 By default, this will register the basic types with simple registrations, including
-more complex open-generics.  It also adds support for your IEnumerable<>, Lazy<>, and Func<> dependencies.
+more complex generics.  It also adds support for your IEnumerable<>, Lazy<>, and Func<> dependencies.
 
 Optionally, you can configure this to automatically register your decorators and you can extend
-or superceded it with your own custom auto-registration providers.
+or supercede it with your own custom auto-registration providers.
 
 Author: Keith A. Knight 
 
