@@ -2,7 +2,7 @@
 An Extensible Auto-Registration Extension for Simple Injector
 
 ## Summary
-Name: KeithAKnight.SimpleInjector.AutoRegistration
+Name: SimpleInjector.AutoRegistration
 
 Description: A flexible auto-registration module that extends Simple Injector IoC container.
 
